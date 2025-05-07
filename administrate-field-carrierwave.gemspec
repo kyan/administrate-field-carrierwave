@@ -4,7 +4,7 @@ $LOAD_PATH.push File.expand_path('lib', __dir__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-carrierwave'
-  gem.version = '0.6.0'
+  gem.version = '0.7.0'
   gem.authors = ['Zooppa']
   gem.email = ['dev@zooppa.com']
   gem.homepage = 'https://github.com/zooppa/administrate-field-carrierwave'
@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 
   gem.add_runtime_dependency 'administrate', '< 1.0.0'
-  gem.add_runtime_dependency 'rails', '>= 4.2', '< 8'
+  gem.add_runtime_dependency 'rails', '>= 4.2'
 
   gem.add_development_dependency 'guard', '~> 2.14'
   gem.add_development_dependency 'guard-rspec', '~> 4.7'
